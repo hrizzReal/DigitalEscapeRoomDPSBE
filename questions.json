@@ -1,7 +1,7 @@
 {
   "levels": {
     "1": [
-      { "id": "q1", "title": "Decrypt the Destination", "body": "You have found this para, your agents found for you, obtain the password and crack the site: **http://bit.ly/3KKAJtV** ", "answer": "aibohphobia", "hint": "Each number represents a character's ASCII value. Convert them to letters to form the URL and use your browser's Inspect / View Source to find the hidden flag.", "fileUrl": "timmy.txt" },
+      { "id": "q1", "title": "Decrypt the Destination", "body": "You have found this para, your agents found for you, obtain the password and crack the site: **https://79b0a1d2a263.ngrok-free.app** ", "answer": "aibohphobia", "hint": "Each number represents a character's ASCII value. Convert them to letters to form the URL and use your browser's Inspect / View Source to find the hidden flag.", "fileUrl": "timmy.txt" },
       { "id": "q2", "title": "The Ciphered Message", "body": "You are given a **ciphered** code which you will have to decode in order to get the flag.***ZXMQROB IBYOLK***  --> ??", "answer": "capture lebron", "hint": "This is a classic Caesar/ROT substitution. Shift each letter 3 places forward in the alphabet (A → D, B → E, …). Keep spaces as-is." },
       { "id": "q3", "title": "Base Instinct", "body": "Some secrets aren’t meant to be read at first glance. A single line of seemingly random characters hides your next clue. Can you uncover it?\n\n**Challenge:**You stumble upon the following string in a mysterious file:**ZmxhZzpob3BldXJoYXZpbmdmdW4=\n\n*****Task: **Decode* the string to reveal the hidden flag.", "answer": "hopeurhavingfun", "hint": "esab 46" },
       { "id": "q4", "title": "Invisible Ink", "body": "Sometimes secrets are right under your nose. A normal-looking paragraph hides a tiny treasure — only careful eyes will find it.\n\n**Challenge:**Firmware logs always generate: encryption algorithms secure your _ protocol efficiently kernel-side.\n\n**Task:**The flag is hidden in the paragraph. It follows the format: flag:{something}.", "answer": "easy_peks", "hint": "Every word matters — try reading the first letters carefully." },
@@ -25,6 +25,7 @@
   "points": { "1": 30, "2": 60, "3": 120 },
   "unlockRules": { "2": {"requireLevel": 1, "requireCount": 3}, "3": {"requireLevel": 2, "requireCount": 2} }
 }
+
 
 
 
